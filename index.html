@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <title>AROUND THE WORLD!</title>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  
+      crossorigin="anonymous"></script>  <!-- ALWAYS PUT JQUERY LIBRARY BEFORE THE SCRIPT -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+
+    <link rel="stylesheet" href="mywebsitestyle.css">
+    <script src="mywebsitescript.js" type="text/javascript"> </script>
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <header>
+      <div id="page-header">
+        <h1 style=" color:navy;">AROUND THE WORLD<br>
+          <small style="color:#0fabd2;">“Traveling – it leaves you speechless, then turns you into a storyteller.” – <a style="color:blue; text-decoration: none;" href="https://www.goodreads.com/author/show/49575.Ibn_Battuta">Ibn Battuta </a> </small></h1>
+      </div>
+      
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          
+          <ul class="nav navbar-nav" style="background-color: #0fabd2; color:white;">
+           
+            <li style=" color:navy; font-size:18px;"><a href="#"><a href="#">Home</a></li>
+            <li style="background-color:#D1EEEE; color:navy; font-size:18px;"><a href="#"><a href="#">Destinations</a></li>
+
+            <li class="story" style="background-color:#D1EEEE; color:navy; font-size:18px;"><a  href="#"><a href="#stories">Stories</a></li>
+            <li style="background-color:#D1EEEE; color:navy; font-size:18px;"><a href="#"><a href="#">Tips</a></li>
+            <li style="background-color:#D1EEEE; color:navy; font-size:18px;" id="story"><a href="#"><a href="#about">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main> 
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <img src="bromo.png" style="width:100%; height:400px">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4" style="background-color:#D1EEEE;text-align: center;">
+            <h3 style="font-weight: bold;"> SUBSCRIBE</h3> 
+              <form>
+                <h3>You! Yes you!. Please fill it in :)</h3>
+                <p>Nick name: <input type="text" name="fname"> </p>              
+                <button type="button" class="btn btn-info" id="friendbutton">I am a Friend already</button>
+                  <div class="panel">I'm glad we're friends! Thanks for visiting my website. Stay tune for new update from my website</div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p style="font-size: 20px;"> I am a Guest. I want to be a Friend & receive updates on new stories</p>
+                <br>          
+                <form action="/action_page.php" method="get" target="_blank">
+                  <div class="form-group">
+                    <form class="form-inline" action="/action_page.php">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">      
+                  </div>
+                    <div id="al">
+                    <button type="button"   class="btn btn-info">Be a Friend</button></div>
+                    </form>
+            </div>
+          
+            <div id="about" class="col-sm-4" style="background-color:skyblue;text-align: center;">
+              <img src="aboutme.jpg" class="img-circle" style = "height:200px; width:150px">
+              <h2 style="font-weight: bold;">About me</h2>                  
+              <h6>
+                  My background story...
+              </h6>
+              <p>I'm Sellie, an Indonesian girl who loves travelling around the world.  What I like most about it, is meeting new people, discovering new things and coming back home with a lot of stories to tell. Travelling gives me a better view of many things. My life is full with things to "learn from yesterday, live for today and hope for tomorrow"</p>
+
+              <h6>What I do now...
+              </h6>
+              <p> I am studying at Restart Network now. I follow "ONE program" and I hope it can help me to reach my dreams. Travelling around the world is one of them :)</p>      
+              <a href= "https://restart.network/" target="_blank">
+                  <img src="https://restart.network/assets/partials/particles_partial/assets/images/restart.png" style = "height:80px; width:150px"
+                  alt="Restart Network logo" > </a>                     
+              <p> I am also a member of Toastmasters International organization. 
+                          I used to go to Toastmasters in Jakarta, 
+                          but now I am a member of Rotterdam Toastmasters Club.
+                          The best thing about being a member is I can join any club meeting around the world! 
+              </p>
+              <a href="http://www.toastmasters.org/" target="_blank"> 
+              <img src="toastmasters.png" style = "height:80px; width:150px" alt="Toastmasterslogo" >
+              </a> 
+             
+              <h6>
+                    What I wish for the future
+              </h6>
+                <p>TRAVEL MORE!</p>                        
+          </div>
+          
+          <div class="col-sm-4" style="background-color:#0fabd2; text-align: center">
+             
+            <h2 style="font-weight: bold;">
+              What will you find in my website?
+            </h2> 
+              <p> 
+                Welcome to my page. In this blog I share my travelling stories and experiences, to inspire you for one of your next trips or - hopefully - make you want to travel as well. I want to show you there's so much more to traveling than just seeing things. It's about discovering, feeling and living the experiences. About getting out of your comfort zone and diving head first into the great adventure that is life. About realizing that we need to discover this world and learn from it. Enjoy! </p>
+              <p> 
+                You can also <a href="#here" style="color:green">check your currency here</a> </p> 
+              <p> and <a href="#there" style="color:green">explore the world here</a> </p>                   
+              <br> 
+          </div>
+        </div> 
+      </div>       
+        <br>
+        <hr style="color:navy; display: block;border-style: inset;border-width: 10px;">
+      <div id="stories">
+        <div class="row">
+          <h3 id="stories" style="font-size: 30px;text-align:center;font-weight: bold; color:#0fabd2">STORIES</h3>
+
+          <div class="col-sm-6" style="background-color:#eaedf9;">
+          <h2>Bosnia, Croatia and Montenegro </h2>
+          <p> <em> discover Balkan Peninsula beauty</em></p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.  </p>   
+
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. <a> read more... </a> </p>              
+          </div>
+
+           <div class="col-sm-6" style="background-color:#3CBC8D;">        
+                  <img src="bosnia1.jpeg" class="img-responsive" style = "height:150px; width: 50px; padding:10px;vertical-align:top; display:inline-block;"
+                      alt="bosnia1"> 
+                      <img src="croatia1.jpeg" class="img-responsive" style = "height:150px; width: 50px; vertical-align:top; display:inline-block; padding:10px;;"
+                      alt="croatia1" > 
+                      <img src="croatia2.jpeg" class="img-responsive" style = "height:150px; width: 50px;padding:10px;vertical-align:top; display:inline-block;"
+                      alt="bosnia1"> 
+                      <img src="montenegro1.jpeg" class="img-responsive" style = "height:150px; width: 50px; vertical-align:top; display:inline-block; padding:10px;;"
+                      alt="croatia1" >                    
+            </div>       
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6" style="background-color:#3CBC8D;">                       
+            <img src="paris3.jpg" class="img-responsive" style = "height:250px; width:150px; padding:10px;vertical-align:top; display:inline-block;"
+                alt="paris1"  > 
+                <img src="paris1.jpg" class="img-responsive" style = "height:250px; width:150px; vertical-align:top; display:inline-block; padding:10px;;"
+                alt="paris2" >        
+          </div>
+
+          <div class="col-sm-6" style="background-color:#eaedf9;">
+              <h2>Paris, France </h2>
+              <p> <em> city of light </em></p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. <a> read more... </a> </p>                
+          </div>       
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6" style="background-color:#eaedf9;">
+          <h2>The Netherlands </h2>
+          <p> <em>  </em></p>
+           
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.   </p>     
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.   </p>    
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. <a> read more... </a> </p>          
+          </div>
+          <div class="col-sm-6" style="background-color:#3CBC8D;">                             
+            <img src="nl3.jpg" class="img-responsive" style = "height:250px; width:150px; padding:10px;vertical-align:top; display:inline-block;"
+                alt="nl3"  > 
+                <img src="nl2.jpg" class="img-responsive" style = "height:250px; width:150px; vertical-align:top; display:inline-block; padding:10px;;"
+                alt="nl2" > 
+                <img src="nl1.png" class="img-responsive" style = "height:250px; width:150px; vertical-align:top; display:inline-block; padding:10px;;"
+                alt="nl2" >             
+          </div>
+             
+        </div>
+        <div class="row">
+          <div class="col-sm-6" style="background-color:#3CBC8D;">
+              <img src="mo4.jpg" class="img-responsive" style = "height:250px; width:200px; vertical-align :top; display:inline-block; padding:10px;;"
+                      alt="mo4" > 
+               
+                  <img src="mo3.jpg" class="img-responsive" style = "height:250px; width:150px; padding:10px;vertical-align:top; display:inline-block;"
+                      alt="mo3"  > 
+                      <img src="mo1.jpg" class="img-responsive" style = "height:250px; width:150px; vertical-align:top; display:inline-block; padding:10px;;"
+                      alt="mo1" > 
+                      <img src="mo2.jpg" class="img-responsive" style = "height:250px; width:150px; vertical-align:top; display:inline-block; padding:10px;;"
+                      alt="mo2" >                      
+          </div>
+
+          <div class="col-sm-6" style="background-color:#eaedf9;">
+            <h2>Morocco </h2>
+            <p> <em> city of light </em></p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. <a> read more... </a> </p>                
+          </div>     
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6" style="background-color:#eaedf9;">
+          <h2>ASIA </h2>
+          <p> <em> breathtaking view and amazing adventure</em></p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. <  </p>  <br>
+           
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. <  </p>  <br>
+           
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. <  </p>  <br>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. <  </p>  <br>
+            
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. <a> read more... </a> </p>                
+          </div>
+
+          <div class="col-sm-6" style="background-color:#3CBC8D;">
+                  
+                   
+            <img src="asia2.jpg" class="img-responsive" style = "height:250px; width:150px; padding:10px;vertical-align:top; display:inline-block;"
+                alt="nl3"  > 
+                <img src="asia7.jpg" class="img-responsive" style = "height:250px; width:150px; vertical-align:top; display:inline-block; padding:10px;;"
+                alt="asia4" >
+                <img src="asia9.jpg" class="img-responsive" style = "height:250px; width:150px; vertical-align:top; display:inline-block; padding:10px;;"
+                alt="asia4" >
+                <img src="asia4.jpg" class="img-responsive" style = "height:250px; width:150px; vertical-align:top; display:inline-block; padding:10px;;"
+                alt="asia4" > 
+                <img src="asia11.jpg" class="img-responsive" style = "height:250px; width:150px; vertical-align:top; display:inline-block; padding:10px;;"
+                alt="asia6" > 
+                <img src="asia12.jpg" class="img-responsive" style = "height:250px; width:150px; vertical-align:top; display:inline-block; padding:10px;;"
+                alt="asia9" >   
+                 <img src="asia10.jpg" class="img-responsive" style = "height:250px; width:150px; vertical-align:top; display:inline-block; padding:10px;;"
+                alt="asia9" >           
+          </div>    
+        </div>
+      </div>      
+        <hr style="color:navy; display: block;border-style: inset;  border-width: 10px;">  
+      <div class="row">
+        <div class="col-sm-6">                     
+          <div class="currency">
+            <script src="http://data.fixer.io/api/latest?access_key=0c9a466585dd4d9bbddfdddadf626f27&symbols&callback=MY_FUNCTION"
+                 async defer></script>
+            <div id="here" style="font-weight: bold;font-size: 16px;background-color :skyblue"> Check your currency here
+              <div class="table-responsive" >
+                <table class="table" >
+                  <tr > 
+                  <td class="active" style="font-weight: bold;">Date</td>
+                  <td class="textbox0" style="font-weight: bold;"></td>
+                  </tr>
+
+                  <tr > 
+                  <td class="success">1</td>
+                  <td class="textbox1"></td>
+                  </tr>
+
+                  <tr > 
+                  <td class="warning">GBP</td>
+                  <td class="textbox2"></td>
+                  </tr>
+
+                  <tr > 
+                  <td class="danger">USD</td>
+                  <td class="textbox3"></td>
+                  </tr>
+
+                  <tr > 
+                  <td class="info">AUD</td>
+                  <td class="textbox4"></td>
+                  </tr>
+
+                  <tr > 
+                  <td class="success">CAD</td>
+                  <td class="textbox5"></td>
+                  </tr>
+                  <tr > 
+                  <td class="danger">JPY</td>
+                  <td class="textbox6"></td>
+                  </tr>
+
+                  <td class="info">IDR</td>
+                  <td class="textbox7"></td>
+                  </tr>
+                </table>
+              </div> 
+            </div> 
+          </div>   
+        </div>
+        <div class="col-sm-6"> 
+          <button type="button" class="btn btn-info" id="#home"><a href="#page-header">scroll up back home </a></button> 
+        </div>
+      </div> 
+
+    </main>
+    <br>
+
+    <div class="boxmap">
+      <h2 style="text-align:center;color:#667292; font-weight:bold">Feel free to explore around the world by using the maps here</h2>
+    </div>
+      <br>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvy3xTy8DL2RskluZWAOKcsJhtNjDMSvM&libraries=places&callback=initAutocomplete"
+           async defer></script> 
+    <div id="there"> 
+      <input id="pac-input" class="controls" type="text" placeholder="Where is you next travel destination?" style="width: 350px; height:50px;  font-weight:bold; border: 1000px navy;  background-color: #3CBC8D;border-radius: 4px;color: white;">     
+    </div>
+    <div id="map"></div>   
+    
+  </body>
+</html>
